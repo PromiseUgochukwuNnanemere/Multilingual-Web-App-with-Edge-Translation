@@ -46,7 +46,9 @@ A multilingual static web app built with AWS services and deployed through a ful
 ## 📸 Screenshots
 
 ![Auto Trigger Check](images/Auto_Trigger_Check.png)
-![Test Pipeline](Test_Pipeline)
+
+![Test Pipeline](Test_Pipeline.png)
+
 ![Webpage](webpage.png)
 
 ---
