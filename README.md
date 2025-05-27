@@ -39,7 +39,7 @@ A multilingual static web app built with AWS services and deployed through a ful
 
 ## 🎥 Demo
 
-[content_translation_pipeline](demo/content_translation_pipeline.webm)
+[Demo](https://github.com/PromiseUgochukwuNnanemere/Multilingual-Web-App-with-Edge-Translation/raw/refs/heads/main/demo/content_translation_pipeline)
 
 --- 
 
