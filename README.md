@@ -39,17 +39,17 @@ A multilingual static web app built with AWS services and deployed through a ful
 
 ## 🎥 Demo
 
-[Demo Video](demo/content_translation_pipeline.webm)
+| [Demo Video](demo/content_translation_pipeline.webm) | Demonstration of Content Translation Pipeline |
 
 --- 
 
 ## 📸 Screenshots
 
-![Auto Trigger Check](images/Auto_Trigger_Check.png)
-
-![Test Pipeline](images/Test_Pipeline.png)
-
-![Webpage](images/webpage.png)
+| Preview | Description |
+|--------|-------------|
+| ![Auto Trigger Check](images/Auto_Trigger_Check.png) | Auto Trigger Check |
+| ![Test Pipeline](images/Test_Pipeline.png) | Test Pipeline |
+| ![Webpage](images/webpage.png) | Webpage |
 
 ---
 
