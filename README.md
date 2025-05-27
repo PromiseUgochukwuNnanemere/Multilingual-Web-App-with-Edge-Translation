@@ -118,13 +118,6 @@ git push origin main
 
 ---
 
-## future improvements
-
-- Implement DNS name for remembrance and security
-- 
-
----
-
 ## 🪪 License
 
 MIT License
