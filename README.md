@@ -39,7 +39,7 @@ A multilingual static web app built with AWS services and deployed through a ful
 
 ## 🎥 Demo
 
-| [Demo Video](demo/content_translation_pipeline.webm) | Demonstration of Content Translation Pipeline |
+[content_translation_pipeline](demo/content_translation_pipeline.webm)
 
 --- 
 
