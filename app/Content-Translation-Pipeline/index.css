@@ -1,0 +1,157 @@
+/* Reset and base styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Section background */
+section {
+	width: 100%;
+	min-height: 100vh;
+	background: url('https://plus.unsplash.com/premium_photo-1681487469745-91d1d8a5836b?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Left Box */
+.leftBox {
+	flex: 1 1 100%;
+	padding: 40px;
+	box-sizing: border-box;
+	color: white;
+}
+
+.leftBox .content {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 40px;
+	transition: .5s;
+}
+
+.leftBox .content:hover {
+	background: #e91e63;
+}
+
+.leftBox .content h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.leftBox .content p {
+	margin: 10px 0;
+}
+
+/* Events Box */
+.events {
+	flex: 1 1 100%;
+	background: rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	padding: 40px;
+}
+
+.events ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.events ul li {
+	display: flex;
+	flex-wrap: wrap;
+	background: #fff;
+	box-sizing: border-box;
+	min-height: 200px;
+}
+
+.time {
+	flex: 1 1 30%;
+	background: #262626;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.time:hover {
+	background: #e91e63;
+}
+
+.time h2 {
+	font-size: 48px;
+	margin: 0;
+	line-height: 1;
+}
+
+.time h2 span {
+	display: block;
+	font-size: 24px;
+}
+
+/* Details section */
+.details {
+	flex: 1 1 70%;
+	padding: 20px;
+	box-sizing: border-box;
+	background: white;
+}
+
+.details h3 {
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.details p {
+	font-size: 16px;
+	margin: 0 0 10px;
+}
+
+.details a {
+	display: inline-block;
+	padding: 10px 15px;
+	border: 1.5px solid #262626;
+	font-size: 16px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.details a:hover {
+	background: #e91e63;
+	color: white;
+	border-color: #e91e63;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+	.leftBox,
+	.events {
+		flex: 1 1 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	.leftBox .content h1 {
+		font-size: 28px;
+	}
+
+	.details h3 {
+		font-size: 18px;
+	}
+
+	.details p,
+	.details a {
+		font-size: 14px;
+	}
+
+	.time h2 {
+		font-size: 36px;
+	}
+
+	.time h2 span {
+		font-size: 18px;
+	}
+}
